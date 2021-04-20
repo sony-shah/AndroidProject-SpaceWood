@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#93221c</color>
+    <color name="colorPrimaryDark">#9f5330</color>
+    <color name="colorAccent">#f4bf12</color>
+    <color name="orange">#8ed1f6</color>
+    <color name="divideColor">#80CBC4</color>
+
+</resources>

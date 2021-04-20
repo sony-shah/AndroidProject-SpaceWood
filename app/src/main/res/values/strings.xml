@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">SpaceWood</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Shivam gate</string>
+    <string name="nav_header_subtitle">gateshivam3@gmail.com</string>
+    <string name="nav_header_desc">Furniture shop</string>
+    <string name="action_settings">Settings</string>
+
+    //profile
+    <string name="Textview10">My Details</string>
+    <string name="Textview12">Name :</string>
+    <string name="Textview15">Email ID :</string>
+    <string name="Textview16">Address :</string>
+    <string name="Textview17">City :</string>
+    <string name="Textview18">State :</string>
+    <string name="Textview19">Pincode :</string>
+    <string name="Textview20">Contact :</string>
+    <string name="button4">Update</string>
+    <string name="editText9">xyz</string>
+    <string name="editText10">gateshivam3@gmail.com</string>
+    <string name="editText14">eg.Santacruz</string>
+    <string name="editText15"></string>
+    <string name="editText16"></string>
+    <string name="editText17"></string>
+    <string name="editText18"></string>
+
+
+    //splace Screen
+    <string name="Textview21">Furniture Shop</string>
+    <string name="Textview11">SPACEWOOD modern living furniture</string>
+    <string name="title_activity_home">Home</string>
+
+    //login page
+    <string name="editText1">Email Id</string>
+    <string name="editText2">Password</string>
+    <string name="button1">Sign In</string>
+    <string name="button2">Sign Up</string>
+
+    //registration page
+    <string name="editText">Email Id</string>
+    <string name="editText3">UserName</string>
+    <string name="editText4">Address</string>
+    <string name="editText5">Phone No.</string>
+    <string name="editText6">Password</string>
+    <string name="editText7">Confirm Password</string>
+    <string name="button">Sign In</string>
+    <string name="Textview13">Furniutre Shop</string>
+
+    //about Us
+    <string name="Textview2"> </string>
+    <string name="Textview4">We are Spacewood – India’s leading manufacturer of Modular Furniture.
+                             we’ve played a key role in enhancing and enriching
+                             a lifestyle of dreams through our evolving furniture concepts.
+                             We maintain the highest quality standards which include
+                             certifications of ISO 9001, ISO 14001 – 2004, and ISO 18001 – 2007.
+                             We are a perfect combination of quality, expertise and experience.
+                             We use the best of raw materials and apply engineered solutions and processes to produce durable,
+                            premium stylish and comfortable solutions with immaculate finishing </string>
+    <string name="Textview14">Furniture Shop</string>
+
+
+    //contact Us
+    <string name="Textview5">HEAD OFFICE SPACEWOOD FURNISHERS PVT. LTD. T – 48,
+                             MIDC,HINGNA ROAD,NAGPUR – 440016</string>
+
+    <string name="Textview6"> +91 9029221224</string>
+    <string name="Textview7">Furniture Shop</string>
+    <string name="Textview8">marketing@spacewood.in</string>
+    <string name="Textview9">+91 7104235968</string>
+
+
+    //feedback
+    <string name="editText8">Enter your Name</string>
+    <string name="editText11">Enter phone No.</string>
+    <string name="editText12">Subject</string>
+    <string name="editText13">Message</string>
+    <string name="Textview3">Feedback</string>
+    <string name="Textview">Furniture Shop</string>
+    <string name="Textview1"><b>FOR FEEDBACK</b> service@spacewood.in</string>
+
+    //grid layout
+
+    <string name="button5">TABLE</string>
+    <string name="button6">DINNING</string>
+    <string name="button7">BED</string>
+    <string name="button8">SOFA</string>
+
+
+</resources>

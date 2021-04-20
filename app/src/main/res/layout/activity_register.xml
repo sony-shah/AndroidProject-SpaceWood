@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chairall"
+    tools:context="com.example.sonyshah.spacewood.register">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView13"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="17dp"
+        android:alpha="0.9"
+        android:background="#ffffff"
+        android:ems="13"
+        android:hint="@string/editText"
+        android:inputType="textEmailAddress"
+        android:paddingStart="5dp"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/editText"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="10dp"
+        android:alpha="0.9"
+        android:background="#ffffff"
+        android:ems="13"
+        android:gravity="center_vertical"
+        android:hint="@string/editText3"
+        android:inputType="textPersonName"
+        android:paddingStart="5dp"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editText3"
+
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/imageView5"
+        android:alpha="0.9"
+        android:background="#ffffff"
+        android:ems="13"
+        android:hint="@string/editText4"
+        android:inputType="textPostalAddress"
+        android:paddingStart="5dp"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editText4"
+
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/imageView7"
+        android:alpha="0.9"
+        android:background="#ffffff"
+        android:ems="13"
+        android:hint="@string/editText5"
+        android:inputType="phone"
+        android:maxLength="10"
+
+        android:paddingStart="5dp"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+        android:layout_below="@+id/editText5"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/imageView7"
+
+        android:alpha="0.9"
+        android:background="#ffffff"
+        android:ems="13"
+        android:hint="@string/editText6"
+        android:inputType="textPassword"
+        android:paddingStart="5dp"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editText6"
+
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/imageView8"
+        android:alpha="0.9"
+        android:background="#ffffff"
+        android:ems="13"
+        android:hint="@string/editText7"
+        android:inputType="textPassword"
+        android:paddingStart="5dp"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/textView36"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="9dp"
+        android:alpha="0.95"
+        android:background="@android:color/holo_orange_dark"
+        android:ems="8"
+        android:onClick="login"
+        android:text="@string/button"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/editText3"
+        android:layout_toStartOf="@+id/editText"
+        android:background="@android:color/holo_orange_dark"
+        app:srcCompat="@drawable/ic_email_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_toStartOf="@+id/editText3"
+        android:background="@android:color/holo_orange_dark"
+        app:srcCompat="@drawable/ic_person_add_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/editText4"
+        android:layout_toStartOf="@+id/editText4"
+        android:background="@android:color/holo_orange_dark"
+        app:srcCompat="@drawable/ic_place_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/imageView6"
+        android:layout_alignTop="@+id/editText5"
+        android:background="@android:color/holo_orange_dark"
+        app:srcCompat="@drawable/ic_phone_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/editText7"
+        android:layout_toStartOf="@+id/editText6"
+        android:background="@android:color/holo_orange_dark"
+        app:srcCompat="@drawable/ic_lock_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/editText7"
+        android:layout_toStartOf="@+id/editText7"
+        android:background="@android:color/holo_orange_dark"
+        app:srcCompat="@drawable/ic_lock_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@drawable/blacklogo" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView26"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="@string/Textview"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="7dp"
+        android:text="Already Signed in? Login "
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+

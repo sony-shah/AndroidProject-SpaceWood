@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.sonyshah.spacewood.Payment">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="100dp">
+
+
+        <RadioButton
+            android:id="@+id/radio_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radio_one"
+            android:layout_below="@+id/radio_one"
+            android:layout_marginTop="10dp"
+
+            android:onClick="checkButton"
+            android:text="Credit Card"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <RadioButton
+            android:id="@+id/radio_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radio_one"
+            android:layout_below="@+id/radio_one"
+            android:layout_marginTop="10dp"
+
+            android:onClick="checkButton"
+            android:text="Debit Card"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <RadioButton
+            android:id="@+id/radio_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radio_two"
+            android:layout_below="@+id/radio_two"
+            android:layout_marginTop="11dp"
+            android:onClick="cashbutton"
+            android:text="Cash On Delivery"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/text_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:layout_alignEnd="@+id/radioGroup"
+        android:layout_below="@+id/editText25"
+        android:layout_marginTop="32dp"
+        android:alpha="0.95"
+        android:onClick="paydone"
+        android:background="#ff8800"
+        android:text="Place Order"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView35"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="26dp"
+        app:srcCompat="@drawable/visa" />
+
+    <EditText
+        android:id="@+id/editText19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText20"
+        android:layout_below="@+id/radioGroup"
+        android:layout_marginTop="20dp"
+        android:alpha="0.95"
+        android:ems="12"
+        android:hint="Card Number"
+        android:inputType="number"
+        android:maxLength="16" />
+
+    <EditText
+        android:id="@+id/editText20"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText19"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_toStartOf="@+id/text_selected"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="MM"
+        android:inputType="number"
+        android:maxLength="2" />
+
+    <EditText
+        android:id="@+id/editText24"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/editText20"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/text_selected"
+        android:ems="10"
+
+        android:gravity="center"
+        android:hint="YY"
+        android:inputType="number"
+        android:maxLength="2" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/editText20"
+        android:layout_toEndOf="@+id/editText20"
+        android:text="/"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/editText25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView9"
+        android:layout_below="@+id/editText20"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="CV"
+        android:inputType="number"
+        android:maxLength="4" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="fill_vertical"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textStyle="normal" />
+
+
+</RelativeLayout>

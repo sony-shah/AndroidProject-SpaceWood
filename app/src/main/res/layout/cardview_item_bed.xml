@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:cardview="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="2dp"
+    android:id="@+id/cardviewbed_id"
+    android:layout_marginBottom="2dp"
+    android:layout_marginRight="2dp"
+    cardview:cardCornerRadius="1dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/bed_title_id"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text=""
+            android:textColor="#2d2d2d"
+            android:textSize="15sp" />
+
+
+        <ImageView
+            android:id="@+id/bed_img_id"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/bed_title_id"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/bed_desc_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dinning_img_id"
+            android:paddingLeft="5dp"
+            android:text=" Bed desc..."
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+
+  </android.support.v7.widget.CardView>

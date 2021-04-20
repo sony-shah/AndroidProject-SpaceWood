@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chairall"
+    tools:context="com.example.sonyshah.spacewood.login">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/blacklogo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button1"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginTop="52dp"
+        android:text="@string/Textview"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/holo_orange_light"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/editText1"
+        android:layout_toStartOf="@+id/editText1"
+        android:background="#ff8800"
+        app:srcCompat="@drawable/ic_person_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/editText2"
+        android:layout_toStartOf="@+id/editText1"
+        android:background="@android:color/holo_orange_dark"
+        app:srcCompat="@drawable/ic_lock_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_above="@+id/imageView16"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="20dp"
+        android:alpha="0.9"
+        android:background="#ffffff"
+        android:ems="13"
+        android:hint="@string/editText1"
+        android:inputType="textEmailAddress"
+        android:paddingStart="5dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="#000000"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/imageView16"
+        android:alpha="0.9"
+        android:background="#ffffff"
+        android:ems="13"
+        android:hint="@string/editText2"
+        android:inputType="textPassword"
+        android:paddingStart="5dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="#000000"
+        android:textStyle="normal|italic" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:alpha="0.95"
+        android:background="#ff8800"
+        android:onClick="regis"
+        android:text="New User? Sign Up"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:alpha="0.95"
+        android:background="#ff8800"
+        android:text="@string/button1"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="TextView" />
+
+
+</RelativeLayout>

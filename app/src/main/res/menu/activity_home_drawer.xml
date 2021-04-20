@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Login/Sign Up" />
+
+
+    </group>
+
+    <item android:title="category">
+        <menu>
+            <item
+                android:id="@+id/nav_table"
+                android:icon="@drawable/ic_seat_black"
+                android:title="Table" />
+            <item
+                android:id="@+id/nav_dinning"
+                android:icon="@drawable/ic_local_dining_black"
+                android:title="Dinning" />
+
+            <item
+                android:id="@+id/nav_bed"
+                android:icon="@drawable/ic_bed_black"
+                android:title="Bed" />
+            <item
+                android:id="@+id/nav_sofa"
+                android:icon="@drawable/ic_sofa_black"
+                android:title="Sofa" />
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/ic_call_black_24dp"
+                android:title="ContactUs" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_black"
+                android:title="Exit" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "279519780298",
+    "firebase_url": "https://spacewood-2401.firebaseio.com",
+    "project_id": "spacewood-2401",
+    "storage_bucket": "spacewood-2401.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279519780298:android:625e1112fbd7b677",
+        "android_client_info": {
+          "package_name": "com.example.sonyshah.spacewood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279519780298-pc46v0sntmfkhai7htlc2p1mmgb41plu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCeaNuRXbsWX9OQ2vazCFHVzn99oYEmEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279519780298-pc46v0sntmfkhai7htlc2p1mmgb41plu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
